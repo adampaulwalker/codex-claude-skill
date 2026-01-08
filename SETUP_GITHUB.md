@@ -19,20 +19,20 @@ Once you create the repo, GitHub will show you commands. Use these:
 cd "/Users/adam/Library/Mobile Documents/com~apple~CloudDocs/Claude Projects/codex-claude-skill"
 
 # Add GitHub as remote
-git remote add origin https://github.com/YOUR-USERNAME/codex-claude-skill.git
+git remote add origin https://github.com/adampaulwalker/codex-claude-skill.git
 
 # Push to GitHub
 git push -u origin main
 ```
 
-**Replace `YOUR-USERNAME` with your actual GitHub username!**
+**Replace `adampaulwalker` with your actual GitHub username!**
 
 ## Step 3: Update README Links
 
 After pushing, update these placeholders in README.md:
 
-1. `YOUR-USERNAME` in the badge URLs (lines 4-5)
-2. `YOUR-USERNAME` in installation instructions
+1. `adampaulwalker` in the badge URLs (lines 4-5)
+2. `adampaulwalker` in installation instructions
 3. Commit and push the changes:
 
 ```bash
@@ -84,7 +84,7 @@ Upload `screenshots/04-review-results.png` as the social preview image for nice 
    ## Installation
    ```bash
    mkdir -p ~/.claude/skills/codex
-   curl -o ~/.claude/skills/codex/SKILL.md https://raw.githubusercontent.com/YOUR-USERNAME/codex-claude-skill/main/SKILL.md
+   curl -o ~/.claude/skills/codex/SKILL.md https://raw.githubusercontent.com/adampaulwalker/codex-claude-skill/main/SKILL.md
    ```
    ```
 5. Click **Publish release**
@@ -99,7 +99,7 @@ Now you're ready to share! Here are some suggested posts:
 
 Integrates @OpenAI Codex for independent code reviews - enabling proposer-checker-maker-checker workflows. No more copy/paste between terminals!
 
-⭐ Star: github.com/YOUR-USERNAME/codex-claude-skill
+⭐ Star: github.com/adampaulwalker/codex-claude-skill
 
 #AI #DevTools #CodeReview
 ```
@@ -118,7 +118,7 @@ Key benefits:
 
 Perfect for teams that want to catch issues before deployment!
 
-Check it out: github.com/YOUR-USERNAME/codex-claude-skill
+Check it out: github.com/adampaulwalker/codex-claude-skill
 
 #ArtificialIntelligence #SoftwareDevelopment #DeveloperTools
 ```
@@ -140,7 +140,7 @@ Example workflow:
 4. Claude fixes issues
 5. `/codex` again → approved!
 
-Screenshots and installation: github.com/YOUR-USERNAME/codex-claude-skill
+Screenshots and installation: github.com/adampaulwalker/codex-claude-skill
 
 Would love feedback from the community!
 ```
@@ -148,7 +148,7 @@ Would love feedback from the community!
 ### Hacker News
 Title: `Show HN: Codex Review Skill for Claude Code – Independent AI Code Reviews`
 
-Link to: `https://github.com/YOUR-USERNAME/codex-claude-skill`
+Link to: `https://github.com/adampaulwalker/codex-claude-skill`
 
 ## Step 7: Monitor and Respond
 
@@ -163,7 +163,7 @@ If you run into issues:
 1. Check if remote was added: `git remote -v`
 2. Verify you're on main branch: `git branch`
 3. Check for authentication issues: Make sure you're logged into GitHub
-4. Use SSH instead: `git remote set-url origin git@github.com:YOUR-USERNAME/codex-claude-skill.git`
+4. Use SSH instead: `git remote set-url origin git@github.com:adampaulwalker/codex-claude-skill.git`
 
 ---
 

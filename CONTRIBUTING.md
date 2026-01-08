@@ -7,7 +7,7 @@ Thank you for your interest in contributing! This project is community-driven an
 ### 🐛 Report Bugs
 
 If you find a bug:
-1. Check if it's already reported in [Issues](https://github.com/YOUR-USERNAME/codex-claude-skill/issues)
+1. Check if it's already reported in [Issues](https://github.com/adampaulwalker/codex-claude-skill/issues)
 2. If not, create a new issue with:
    - Clear title
    - Steps to reproduce

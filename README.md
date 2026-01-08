@@ -3,7 +3,7 @@
 > Enable proposer-checker-maker-checker workflows by integrating OpenAI's Codex CLI as a review agent within Claude Code sessions.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/YOUR-USERNAME/codex-claude-skill)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/adampaulwalker/codex-claude-skill)
 
 ## 🎯 What This Does
 
@@ -62,12 +62,12 @@ This skill lets you seamlessly invoke **OpenAI Codex** to review code changes di
 **Option 1: Direct Install (Recommended)**
 ```bash
 mkdir -p ~/.claude/skills/codex
-curl -o ~/.claude/skills/codex/SKILL.md https://raw.githubusercontent.com/YOUR-USERNAME/codex-claude-skill/main/SKILL.md
+curl -o ~/.claude/skills/codex/SKILL.md https://raw.githubusercontent.com/adampaulwalker/codex-claude-skill/main/SKILL.md
 ```
 
 **Option 2: Clone Repository**
 ```bash
-git clone https://github.com/YOUR-USERNAME/codex-claude-skill.git
+git clone https://github.com/adampaulwalker/codex-claude-skill.git
 cp codex-claude-skill/SKILL.md ~/.claude/skills/codex/
 ```
 
@@ -185,7 +185,7 @@ Here's the complete proposer-checker-maker-checker workflow:
 
 Contributions are welcome! Here's how you can help:
 
-- 🐛 Report bugs via [GitHub Issues](https://github.com/YOUR-USERNAME/codex-claude-skill/issues)
+- 🐛 Report bugs via [GitHub Issues](https://github.com/adampaulwalker/codex-claude-skill/issues)
 - 💡 Suggest features
 - 📖 Improve documentation
 - 🔧 Submit pull requests
