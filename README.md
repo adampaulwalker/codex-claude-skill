@@ -25,15 +25,11 @@ This skill lets you seamlessly invoke **OpenAI Codex** to review code changes di
 ![Skill Autocomplete](screenshots/01-skill-autocomplete.png)
 *The `/codex` command appears in Claude Code's autocomplete with a clear description*
 
-### 2. Skill Activation
-![Skill Activation](screenshots/02-skill-activation.png)
-*Claude seamlessly hands off to Codex for review*
-
-### 3. Review Preparation
+### 2. Review Preparation
 ![Review Preparation](screenshots/03-review-preparation.png)
 *Claude prepares comprehensive context for Codex with specific focus areas*
 
-### 4. Detailed Review Results
+### 3. Detailed Review Results
 ![Review Results](screenshots/04-review-results.png)
 *Get production-ready assessments with before/after comparisons and actionable next steps*
 

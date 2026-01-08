@@ -32,32 +32,7 @@ These screenshots show a real-world example of using the Codex skill to review t
 
 ---
 
-## Screenshot 2: Skill Activation
-
-![Skill Activation](screenshots/02-skill-activation.png)
-
-### 🔍 Key Features Shown:
-
-1. **Seamless Handoff**
-   - Message shows: "The 'codex' skill is running"
-   - Claude explains: "I'll use Codex to review all the test code we just created"
-   - No jarring context switch or copy/paste required
-
-2. **Context Awareness**
-   - Claude knows what was just created (2,100+ lines of test code)
-   - States it will run "comprehensive reviews of the test files"
-   - Shows understanding of the current development state
-
-3. **User Feedback**
-   - Clear indication that the skill is active
-   - User knows what to expect (Codex review)
-   - Maintains conversation flow
-
-**📝 Annotation:** This demonstrates how skills integrate naturally into the Claude Code conversation - it feels like Claude is just using another tool, not switching to a completely different system.
-
----
-
-## Screenshot 3: Review Preparation
+## Screenshot 2: Review Preparation
 
 ![Review Preparation](screenshots/03-review-preparation.png)
 
@@ -93,7 +68,7 @@ These screenshots show a real-world example of using the Codex skill to review t
 
 ---
 
-## Screenshot 4: Review Results (The Money Shot 💰)
+## Screenshot 3: Review Results (The Money Shot 💰)
 
 ![Review Results](screenshots/04-review-results.png)
 
