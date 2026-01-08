@@ -204,7 +204,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## 📊 Version History
 
-- **1.0.0** (2026-01-08) - Initial release
+- **1.0.0** (January 2026) - Initial release
   - Basic review functionality
   - Uncommitted changes support
   - Specific file reviews
