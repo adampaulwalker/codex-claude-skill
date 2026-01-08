@@ -32,39 +32,28 @@ These screenshots show a real-world example of using the Codex skill to review t
 
 ---
 
-## Screenshot 2: Review Preparation
+## Screenshot 2: Skill Activation
 
-![Review Preparation](screenshots/03-review-preparation.png)
+![Skill Activation](screenshots/02-skill-activation.png)
 
 ### 🔍 Key Features Shown:
 
-1. **Comprehensive Scope**
-   - Lists all test files being reviewed:
-     - `src/tests/test_business_logic.py` (650 lines)
-     - `run_all_tests.py` (440 lines)
-     - `run_ux_tests.py` (175 lines)
+1. **Seamless Handoff**
+   - Clear message: "The 'codex' skill is running"
+   - Claude explains what it's doing: "I'll use Codex to review all the test code we just created"
+   - No jarring context switch or copy/paste required
 
-2. **Focused Review Areas**
-   - Test coverage: "Did we miss critical paths?"
-   - Edge cases: "Are there important scenarios not tested?"
-   - Assertions: "Are test expectations correct?"
-   - Mock strategy: "For stubbed tests, is the approach sound?"
-   - Security: "Any injection or validation gaps?"
-   - Credit logic: "Revenue protection tests comprehensive?"
-   - UX rules: "Do tests actually validate the rules?"
+2. **Context Awareness**
+   - Claude knows what was just created (test code)
+   - States it will run "comprehensive reviews of the test files"
+   - Shows understanding of the current development state
 
-3. **Specific Questions for Codex**
-   - "Are the credit management test stubs comprehensive enough?"
-   - "Should we prioritize any stubbed tests for immediate implementation?"
-   - "Are there critical business logic functions we missed?"
-   - "Do the edge case tests cover realistic production scenarios?"
-   - "Is the test organization (files, classes) logical?"
+3. **User Feedback**
+   - Clear indication that the skill is active
+   - User knows what to expect (Codex review)
+   - Maintains conversation flow
 
-4. **Clear Next Steps**
-   - Before Beta: Run tests, get Codex review, implement P0 tests
-   - Post-Beta: Integration tests, pytest setup, CI/CD, 80%+ coverage
-
-**📝 Annotation:** Claude doesn't just blindly call Codex - it prepares a thoughtful, comprehensive review request with specific focus areas and questions. This shows intelligent orchestration of the two AI agents.
+**📝 Annotation:** This demonstrates how skills integrate naturally into the Claude Code conversation - it feels like Claude is just using another tool, not switching to a completely different system.
 
 ---
 
